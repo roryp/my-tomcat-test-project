@@ -1,0 +1,19 @@
+{
+    "name": "my-tomcat-test-project",
+    "version": "1.0.0",
+    "description": "A project to demonstrate Playwright Tomcat Test",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test"
+    },
+    "keywords": [
+        "playwright",
+        "testing"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@playwright/test": "^1.40.0",
+        "@types/node": "^20.9.3"
+    }
+}
