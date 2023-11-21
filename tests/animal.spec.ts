@@ -11,4 +11,5 @@ test('test AnimalGenerator servlet', async ({ page }) => {
   // Check if the picture is present in the page
   const imgElement = await page.$('img');
   expect(imgElement).not.toBeNull();
+  await page.screenshot({ path: 'screenshot.png' });
 });

@@ -488,3 +488,5 @@ ENV/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+screenshot.png
+package-lock.json
